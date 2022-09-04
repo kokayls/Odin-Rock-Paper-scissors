@@ -1,1 +1,6 @@
-console.log("hello")
+let game = new Game();
+game.play();
+
+
+
+
