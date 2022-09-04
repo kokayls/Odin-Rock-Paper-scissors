@@ -60,7 +60,7 @@ class Game{
             console.log("each player have choosen the same");
 
         }
-        if(this.playerChoice == 0){
+        else if(this.playerChoice == 0){
             if(this.computerChoice == 1){
                 console.log("Computer won this round");
                 this.computerScores++;
